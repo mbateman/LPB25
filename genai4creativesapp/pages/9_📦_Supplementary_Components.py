@@ -1,9 +1,11 @@
 # pages/supplementary.py
 
 import streamlit as st
-
+from utils import global_chat
 
 st.title("📦 Supplementary Components")
+
+global_chat()
 
 # --- Latest Research and Trends ---
 st.header("🔬 Latest Research and Trends")

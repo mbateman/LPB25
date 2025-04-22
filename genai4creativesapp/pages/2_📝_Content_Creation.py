@@ -1,9 +1,11 @@
 # pages/module2.py
 
 import streamlit as st
-
+from utils import global_chat
 
 st.title("🖋️ Module 2: Content Creation")
+
+global_chat()
 
 # --- 2.1 Text Generation ---
 st.header("2.1 Text Generation")

@@ -1,8 +1,11 @@
 # pages/module8.py
 
 import streamlit as st
+from utils import global_chat
 
 st.title("✨ Module 8: Creative Discovery Through AI-Generated Outputs")
+
+global_chat()
 
 # --- 8.1 Unexpected Connections & Novel Outputs ---
 st.header("8.1 Unexpected Connections & Novel Outputs")

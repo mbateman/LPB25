@@ -1,9 +1,11 @@
 # pages/module4.py
 
 import streamlit as st
-
+from utils import global_chat
 
 st.title("🎯 Module 4: Customisation & Personalisation")
+
+global_chat()
 
 # --- 4.1 Tailored Content for Audiences ---
 st.header("4.1 Tailored Content for Audiences")

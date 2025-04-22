@@ -1,8 +1,11 @@
 # pages/module5.py
 
 import streamlit as st
+from utils import global_chat
 
 st.title("🤝 Module 5: Collaboration and Co-Creation")
+
+global_chat()
 
 # --- 5.1 Pairing with Human Creativity ---
 st.header("5.1 Pairing with Human Creativity")

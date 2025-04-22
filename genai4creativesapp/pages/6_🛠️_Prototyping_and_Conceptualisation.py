@@ -1,9 +1,11 @@
 # pages/module6.py
 
 import streamlit as st
-
+from utils import global_chat
 
 st.title("🧪 Module 6: Prototyping & Conceptualisation")
+
+global_chat()
 
 # --- 6.1 Rapid Prototyping ---
 st.header("6.1 Rapid Prototyping")

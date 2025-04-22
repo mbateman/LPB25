@@ -1,10 +1,12 @@
 # Home.py (or main.py in root directory)
 
 import streamlit as st
+from utils import global_chat
 
 st.set_page_config(page_title="Generative AI for Creative People", layout="wide")
 
 st.title("🎨 Generative AI for Creative People")
+global_chat()
 st.markdown("Welcome to your interactive course on creative exploration using Generative AI tools! 👋")
 
 st.subheader("🚀 What You'll Learn")

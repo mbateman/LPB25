@@ -1,9 +1,11 @@
 # pages/module3.py
 
 import streamlit as st
-
+from utils import global_chat
 
 st.title("🤖 Module 3: Automation of Repetitive Tasks")
+
+global_chat()
 
 # --- 3.1 Image & Video Editing ---
 st.header("3.1 Image & Video Editing")

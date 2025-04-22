@@ -1,9 +1,11 @@
 # pages/module7.py
 
 import streamlit as st
-
+from utils import global_chat
 
 st.title("🎨 Module 7: Experimentation with New Styles and Techniques")
+
+global_chat()
 
 # --- 7.1 Style Transfer ---
 st.header("7.1 Style Transfer")

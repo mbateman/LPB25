@@ -1,9 +1,11 @@
 # pages/module1.py
 
 import streamlit as st
-
+from utils import global_chat
 
 st.title("🎨 Module 1: Idea Generation and Brainstorming")
+
+global_chat()
 
 # --- 1.1 ---
 st.header("1.1 Inspiration & Concept Creation")
